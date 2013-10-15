@@ -5,29 +5,40 @@
 }
 
 body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: "Georgia", Helvetica, Arial, sans-serif;
     font-size: 16px;
-    line-height:24px;
+    line-height:32px;
     background:#A8DDDE;
 
 }
 
 P {
-    margin-bottom: 10px;
+    margin-bottom: 16px;
+}
+
+.right {
+        padding-left: 5px;
+        float: right;
+    
 }
 
 header {
     background-color: #6FD4BD;
     color: #ffffff;
-    height: 60px;
+    height: 140px;
+    border: 2px solid #000000;
+        padding: 30px;
+ margin: 10px;
+        
 }
 
 header h1 {
     float: left;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 26px;
-    font-weight: 500;
-    padding: 16px; /* TRouBLe */
+    font-family: "Georgia", Helvetica, Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 550;
+    padding: 0px; /* TRouBLe */
+    color: #ffffff;
     
 }
 
@@ -37,7 +48,7 @@ header nav {
 }
 
 header a {
-    color: #000000;
+    color: #ffffff;
     margin-right: 24px;
     text-decoration: none;
 }
@@ -45,7 +56,7 @@ header a {
 header a:link {}
 header a:visited {}
 header a:hover {
-    color: #ffffff;
+    color: #000000;
 
 }
 header a:active {
@@ -53,16 +64,26 @@ header a:active {
 }
 header a:focus {}
 
-article {
-    clear: both;
-    padding: 0 10px 0 10px;
-}
+article {width:760px;
+		background-color:#FFFFFF;
+		font-family:"Georgia", Helvetica, Arial, sans-serif;
+		font-size:13px;
+		color:#163573;
+		margin-left:160px;
+		margin-right:5px;
+		margin-top:15px;
+		margin-bottom:5px;
+		padding:15px;
+
+		}
 
 article h1 {
     font-size: 36px;
     line-height: 44px;
     margin-top: 4px;
     margin-bottom: 10px;
+    color: #000000;
+    
 }
 
 article h2 {
@@ -72,11 +93,20 @@ article h2 {
     
 }
 
+img {
+    padding: 10px;
+}
+
 footer {
     font-size: 12px;
-    padding: 0 10px 0 10px;
+    height: 60px;
+    text-align:center;
     background-color: #6FD4BD;
     color: #ffffff;
-    height: 60px;
+    height: 54px;
+    border: 2px solid #000000;
+        padding: 8px;
+    line-height:20px;
+ margin: 0px;
 }
 
